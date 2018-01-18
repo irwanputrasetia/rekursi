@@ -60,3 +60,12 @@ int main(){
 	angkatbesi.jmlpemain(6);
 	cout <<"===================================\n\n";
 }
+void olahraga::gerak(string gerakan){
+	cout <<"\n"<<"gerakannya "<<gerakan<<endl;
+}
+int olahraga::tempat(string lapangan){
+	cout <<" tempat "<<lapangan<<endl;
+}
+void olahraga::jmlpemain(int jumlah){
+	cout <<" pemain "<<jumlah<<" orang "<<endl;
+}
